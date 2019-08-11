@@ -1,9 +1,8 @@
 # site settings
 title: Justin Schellenberg
-subtitle: by HTML5 UP
+subtitle:
 email: jrschellenberg@gmail.com
 description: Personal Website for Justin Schellenberg. Winnipeg located Web Designer / Developer.
-
 
 url: https://justin.schellenberg.site
 author: Justin Schellenberg
@@ -21,15 +20,28 @@ tiles-count: 6
 # social settings
 500px_url:
 facebook_url:
-github_url:
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+github_url: https://github.com/Jrschellenberg
+gitlab_url:
+googleplus_url:
+instagram_url:
+linkedin_url: https://www.linkedin.com/in/justin-schellenberg-667451160/
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+twitter_url: https://twitter.com/Carling94788559
 
 # build settings
 markdown: kramdown
+
+# Exclude from processing (not moved to `serve/`)
+exclude:
+  - uploads
+  - images
+
+# Make sure the `_site/assets/` is not trashed (webpack output)
+keep_files:
+  - images
+  - stylesheets
+  - js
+  - files
+  - uploads
 
