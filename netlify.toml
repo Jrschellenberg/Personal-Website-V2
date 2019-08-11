@@ -1,0 +1,19 @@
+[build]
+  Command = "npm run build"
+  Functions = "lambda"
+  Publish = "serve"
+  environment = { NODE_VERSION = "10.15.3" }
+[[headers]]
+  for = "/*.otf"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Content-Type = "application/font-otf"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+    Content-Security-Policy = "frame-ancestors 'self'"
+    X-Frame-Options = "SAMEORIGIN"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"

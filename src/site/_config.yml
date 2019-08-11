@@ -1,0 +1,35 @@
+# site settings
+title: Justin Schellenberg
+subtitle: by HTML5 UP
+email: jrschellenberg@gmail.com
+description: Personal Website for Justin Schellenberg. Winnipeg located Web Designer / Developer.
+
+
+url: https://justin.schellenberg.site
+author: Justin Schellenberg
+street_address: 191 Lindmere Drive
+city: Winnipeg
+state: MB
+zip_code: R3P 2R5
+country: Canada
+phone: (204) 290-0973
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings
+500px_url:
+facebook_url:
+github_url:
+gitlab_url: https://gitlab.com/u/andrewbanchich
+googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
+instagram_url: https://instagram.com
+linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/andrewbanchich
+
+# build settings
+markdown: kramdown
+

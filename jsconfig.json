@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": "./",
+    "paths": {
+      "@Helpers": ["src/js/helpers"],
+      "@Utilities":["src/js/utils.js"],
+      "@Config":["src/js/config.js"],
+      "@Services": ["src/js/services/"],
+      "@Schemas": ["src/js/schemas/"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
