@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Generic
-description: Lorem ipsum dolor est
+title: Personal Projects
+description: list of projects that I have completed while pursuing education, passions, and interests.
 image: assets/images/pic11.jpg
 nav-menu: true
 ---

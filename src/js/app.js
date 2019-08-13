@@ -1,10 +1,3 @@
-import Router from './routes';
 import '../sass/main.scss';
 
-class App {
-  constructor() {
-    this.router = new Router();
-  }
-}
-
-new App();
+// If need to use Newer Javascript to be transpiled, throw it in here.
