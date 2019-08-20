@@ -14,7 +14,7 @@
   {% endfor %}
   {% for page in site.pages limit:site.tiles-count %}
   {% if site.tiles-source == 'pages' and page.show_tile != false %}
-  <article>
+  <article style="order:{{ page.order_priority }}">
     <span class="image">
       <img src="{{ page.image }}" alt="" />
     </span>
