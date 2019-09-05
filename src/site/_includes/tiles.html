@@ -13,6 +13,7 @@
   {% endif %}
   {% endfor %}
   {% for page in site.pages limit:site.tiles-count %}
+    {% if page.sitemap.exclude == 'yes' %}{% continue %}{% endif %}
   {% if site.tiles-source == 'pages' and page.show_tile != false %}
   <article style="order:{{ page.order_priority }}">
     <span class="image">
