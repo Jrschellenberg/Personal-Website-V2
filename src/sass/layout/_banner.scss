@@ -110,6 +110,9 @@
 		&.style4 { &:after { background-color: _palette(accent4); } }
 		&.style5 { &:after { background-color: _palette(accent5); } }
 		&.style6 { &:after { background-color: _palette(accent6); } }
+		&.style2.personal {
+			background-position: center !important;
+		}
 
 		body.is-loading & {
 			&:after {

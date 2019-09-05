@@ -3,6 +3,9 @@ layout: post
 title: About
 image: assets/images/pic13.jpg
 nav-menu: true
+sitemap:
+  priority: 1.0
+  changefreq: monthly
 ---
 
 I am a proud Canadian born and raised in the city of Winnipeg, Manitoba. In 2017 I graduated from the University of Winnipeg with a BSc in Applied Computer Science.
