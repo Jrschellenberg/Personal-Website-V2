@@ -3,6 +3,7 @@ layout: post
 title: About
 image: assets/images/pic13.jpg
 nav-menu: true
+img_alt: "Justin Schellenberg ordering food from menu on lakeshore"
 sitemap:
   priority: 1.0
   changefreq: monthly
