@@ -44,21 +44,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: require.resolve('jquery'),
-        use: [
-          {
-            loader: 'expose-loader',
-            options: 'jQuery',
-          },
-          {
-            loader: 'expose-loader',
-            options: '$',
-          },
-        ],
-      },
-      {
         test: /\.(js|jsx)$/,
-        exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
         },
@@ -219,7 +205,7 @@ module.exports = {
     },
   },
   output: {
-    filename: 'js/[name].bundle.js?[hash]',
+    filename: 'js/[name].bundle.js',
     path: path.resolve(__dirname, 'serve'),
   },
   // Some libraries import Node modules but don't use them in the browser.

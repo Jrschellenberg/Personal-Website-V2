@@ -4,30 +4,6 @@ subtitle:
 email: jrschellenberg@gmail.com
 description: Winnipeg Located Web Designer / Developer / Entrepreneur
 
-url: https://justin.schellenberg.site
-author: Justin Schellenberg
-street_address: 191 Lindmere Drive
-city: Winnipeg
-state: MB
-zip_code: R3P 2R5
-country: Canada
-phone: (204) 290-0973
-
-# homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
-
-# social settings
-500px_url:
-facebook_url:
-github_url: https://github.com/Jrschellenberg
-gitlab_url:
-googleplus_url:
-instagram_url:
-linkedin_url: https://www.linkedin.com/in/justin-schellenberg-667451160/
-pinterest_url:
-slack_url:
-twitter_url: https://twitter.com/Carling94788559
 
 # build settings
 markdown: kramdown
