@@ -1,51 +1,54 @@
-# Personal Website
+# Personal Website-V2
+
+This is the second Iteration of my Personal Website. It is built using Jekyll to allow it to scale to a medium sized project if needed.
+
+The front-end is built using Bootstrap. A huge Thanks to [Melanie](https://github.com/mlaniereyes) For Designing the Front-end!
+
+# Getting Started
+
+Follow these instructions if you wish to get a copy of the website up and running on your development machine for testing and debugging purposes.
+
+## Prerequisites
+- Npm and Node.js
+- Ruby, Bundler, and Jekyll
+
+## Installing
+Navigate to the local directory where the repo was installed
+
+Run ``npm install``
+
+Run ``bundle install``
+
+Run ``npm start``
+
+Go to link in browser ``localhost:4000``
+
+### Deployment
+Uses Netlify, 
+
+- Pushing master will update live site.
+- Pushing staging will update Staging site.
 
 
+### Built With
+- [Jekyll](https://jekyllrb.com/docs/)
+- [Webpack](https://webpack.js.org/)
+- [Babel](https://babeljs.io/)
+  
+### Contributing
+- A huge Thanks to [Melanie](https://github.com/mlaniereyes) For Designing the Front-end!
+  
+### Versioning
+  
+### Authors
+- Justin Schellenberg
+  
+### License
+- BSD 3-Clause "New" or "Revised" License
+- See [LICENSE.md](https://github.com/Jrschellenberg/Personal-Website-V2/blob/master/LICENSE.md)
 
-# Forty - Jekyll Theme
-
-A Jekyll version of the "Forty" theme by [HTML5 UP](https://html5up.net/).  
-
-# Credits
-
-Original README from HTML5 UP:
-
-```
-Forty by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-
-
-This is Forty, my latest and greatest addition to HTML5 UP and, per its incredibly
-creative name, my 40th (woohoo)! It's built around a grid of "image tiles" that are
-set up to smoothly transition to secondary landing pages (for which a separate page
-template is provided), and includes a number of neat effects (check out the menu!),
-extra features, and all the usual stuff you'd expect. Hope you dig it!
-
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fortawesome.github.com/Font-Awesome)
-
-	Other:
-		jQuery (jquery.com)
-		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-		background-size polyfill (github.com/louisremi)
-		Misc. Sass functions (@HugoGiraudel)
-		Respond.js (j.mp/respondjs)
-		Skel (skel.io)
-```
-
-Repository [Jekyll logo](https://github.com/jekyll/brand) icon licensed under a [Creative Commons Attribution 4.0 International License](http://choosealicense.com/licenses/cc-by-4.0/).
+### Acknowledgements
+- Thank You to anyone who's code was used
+- Inspiration
+- README.md inspiration from [Zencash](https://github.com/ZencashOfficial/website)
+  
