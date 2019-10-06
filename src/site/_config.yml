@@ -15,6 +15,9 @@ exclude:
   - uploads
   - images
 
+include:
+  - _redirects
+
 # Make sure the `_site/assets/` is not trashed (webpack output)
 keep_files:
   - images
