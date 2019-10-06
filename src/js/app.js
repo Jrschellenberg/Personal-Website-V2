@@ -12,9 +12,9 @@ const typed = new Typed('.typedjs', {
   strings: ["Quality.", "Speed Optimization.", "User-Centered Design.", "SEO.", "CRO."],
   shuffle: true,
   loop: true,
-  backDelay: 3000,
-  backSpeed: 120,
-  typeSpeed: 240
+  backDelay: 2000,
+  backSpeed: 100,
+  typeSpeed: 100
 });
 
 
