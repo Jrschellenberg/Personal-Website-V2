@@ -4,6 +4,8 @@ subtitle:
 email: jrschellenberg@gmail.com
 description: Winnipeg Located Web Designer / Developer / Entrepreneur
 
+plugins:
+  - jekyll-seo-tag
 
 # build settings
 markdown: kramdown
