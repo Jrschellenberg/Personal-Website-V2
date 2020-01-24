@@ -337,13 +337,31 @@ p {
       flex-wrap: wrap;
       align-items: center;
     }
-  }
 
-  .text-right {
-    .portfolio-list {
-      justify-content: flex-end;
-      padding-right: 40px;
-      text-align: left;
+    &:nth-child(odd){
+      .portfolio-list {
+        justify-content: flex-end;
+        padding-right: 40px;
+        text-align: left;
+      }
+
+      div:first-child {
+        order: 0;
+      }
+
+      div:last-child {
+        order: 1;
+      }
+    }
+
+    &:nth-child(even){
+      div:first-child {
+        order: 1;
+      }
+
+      div:last-child {
+        order: 0;
+      }
     }
   }
 
