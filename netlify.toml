@@ -1,7 +1,7 @@
 [build]
   Command = "npm run build"
   Publish = "serve"
-  environment = { NODE_VERSION = "10.15.3" }
+  environment = { NODE_VERSION = "12.13.1" }
 [[headers]]
   for = "/*.otf"
   [headers.values]
