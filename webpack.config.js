@@ -50,11 +50,6 @@ module.exports = {
         },
       },
       {
-        test: /\.tsx?$/,
-        use: 'ts-loader',
-        exclude: /node_modules/,
-      },
-      {
         test: /\.(scss)$/,
         include: [path.resolve(__dirname, 'src/sass')],
         use: [
@@ -192,16 +187,6 @@ module.exports = {
       '@Config': path.resolve(__dirname, 'src/js/config.js'),
       '@Services': path.resolve(__dirname, 'src/js/services/'),
       '@Schemas': path.resolve(__dirname, 'src/js/schemas/'),
-
-      'lodash-es': 'lodash', // our internal tests showed that lodash is a little bit smaller as lodash-es
-      'lodash.camelcase': 'lodash/camelCase',
-      'lodash.includes': 'lodash/includes',
-      'lodash.isboolean': 'lodash/isBoolean',
-      'lodash.isinteger': 'lodash/isInteger',
-      'lodash.isnumber': 'lodash/isNumber',
-      'lodash.isplainobject': 'lodash/isPlainObject',
-      'lodash.isstring': 'lodash/isString',
-      'lodash.once': 'lodash/once',
     },
   },
   output: {
