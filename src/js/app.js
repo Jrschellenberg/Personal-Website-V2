@@ -26,7 +26,7 @@ grecaptcha.ready(function() {
   grecaptcha.execute('6LcawLYUAAAAAEFtdXwAeCEbDPc3pQOvqkHHcm7d', {action: 'homepage'}).then(function(token) {
 
     const arr = ['jr','schell','enberg@', 'gm', 'ail.c', 'om'];
-    const addressArr = ['191 Li', 'ndmere Drive<br>', 'Win', 'nipeg, M', 'B R3P 2R5<', 'br>Canada'];
+    const addressArr = ['6 Mc', 'Gill<br>', 'Win', 'nipeg, M', 'B R3T 2Y4<', 'br>Canada'];
     const phoneArr = ['(20', '4) 2', '90-0', '973'];
 
     const formSpree = document.querySelector('#hidden_form')
